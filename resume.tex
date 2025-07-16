@@ -1,0 +1,210 @@
+%-------------------------
+% Resume in Latex
+% Author : Ronit Kochar
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{changepage}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.1pt} % Fix fancyhdr footskip warning
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\normalsize
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\footnotesize{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\footnotesize#3} & \textit{\footnotesize #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\footnotesize#1} & \textit{\footnotesize #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \footnotesize#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-2pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ronit Kochar} \\ \vspace{1pt}
+    \small +91 8299313154 $|$ \href{mailto:ronitkochar2001@gmail.com}{\underline{Email}} $|$
+    \href{https://www.linkedin.com/in/ronit-kochar-0a70841b7/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/RonitKochar}{\underline{Github}} $|$
+    \href{https://leetcode.com/u/RonitKochar/}{\underline{Leetcode}}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {AI Intern}{May 2025 - Ongoing}
+      {Tata Consultancy Services}{Pune}
+      \resumeItemListStart
+        \resumeItem{Gained hands-on experience with \textbf{Generative AI}, \textbf{LangChain}, and various \textbf{LLMs} through practical projects, designing and deploying intelligent agents for \textbf{data generation}, \textbf{modification}, and \textbf{analysis}.}
+        \resumeItem{Developed and integrated advanced tools like \textbf{Pinecone}, \textbf{React agents}, and \textbf{vectorstores}, building robust \textbf{backend} and \textbf{frontend} applications for real-time automation.}
+        \resumeItem{Cultivated expertise in \textbf{prompt engineering}, \textbf{model evaluation}, and modern \textbf{AI frameworks}, fostering creative problem-solving and scalable agent systems.}
+      \resumeItemListEnd
+
+      {\small\textit{Skills: LangChain, LLM, Azure Databricks, Chatbot Development, LangGraph, Data Pipelines}}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Manipal Institute of Technology, Manipal}{2022 - 2026}
+      {Bachelor of Technology in Data Science}{}
+    \resumeSubheading
+      {City Montessori School, Lucknow}{May 2020 - March 2022}
+      {High School Diploma, PCM \& CS}{}
+    \resumeSubheading
+      {St Francis College, Lucknow}{Apr 2008 - March 2020}
+      {Middle School Diploma, PCM \& CS}{}
+  \resumeSubHeadingListEnd
+  \vspace*{0.1cm}
+  \textbf{Relevant Coursework:} Java, C, C++, Python, SQL, Data Structures and Algorithms
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \item
+      \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{DL Project on Image Rating Predictions} & \href{https://github.com/RonitKochar/DL-Project-on-Image-Rating-Predictions}{Github} \hspace{0.5em} \href{https://www.linkedin.com/in/ronit-kochar-0a70841b7/}{Linkedin} \\
+        \small{\textit{Skills: Data Preprocessing, Deep Learning, Predictive Modeling, Deployment, System Design}} & \\
+      \end{tabular*}
+      \vspace{0.05em}
+      \resumeItemListStart
+        \resumeItem{Built a \textbf{deep learning} system to \textbf{predict product image ratings} using \textbf{Amazon reviews}. Combined \textbf{DenseNet}, \textbf{ResNet}, and a custom \textbf{CNN} for feature extraction and regression. Preprocessed visual and textual data to align ratings with images. The best model enables \textbf{automated product evaluation} for e-commerce, and the pipeline is modular and scalable.}
+      \resumeItemListEnd
+    \item
+      \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{DataVerse Hub} & \href{https://github.com/RonitKochar/DataVerse-Hub}{Github} \hspace{0.5em} \href{https://www.linkedin.com/in/ronit-kochar-0a70841b7/}{Linkedin} \\
+        \small{\textit{Skills: Next.js, LangChain, Cursor AI, VSCode, Python, ChatModels}} & \\
+      \end{tabular*}
+      \vspace{0.05em}
+      \resumeItemListStart
+        \resumeItem{\textbf{DataVerse-Hub} is a \textbf{web-based platform} for accessible, interactive \textbf{data science}. Users can \textbf{generate}, \textbf{analyze}, and \textbf{modify} industry-specific datasets for learning and real-world use. Features include \textbf{comprehensive data generation}, a \textbf{Python backend}, \textbf{Next.js frontend}, and tools for \textbf{SQL review}, \textbf{error analysis}, and \textbf{real-time Q\&A}. Designed for \textbf{education} and \textbf{experimentation}, it helps users build practical data skills.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+
+{\footnotesize
+\begin{adjustwidth}{0.15in}{0pt}
+\setlength{\parindent}{0em}
+\mbox{\textbf{Core Java Concepts\_Foundation}}\hspace{1.5em}%
+\mbox{\textbf{\href{https://www.coursera.org/account/accomplishments/verify/G5X2LDN5O6EM}{Big Data Integration and Processing}}}\hspace{1.5em}%
+\mbox{\textbf{\href{https://www.coursera.org/account/accomplishments/verify/KV88FOJZTXPH}{Big Data Modelling and Management Systems}}}\hspace{1.5em}%
+\mbox{\textbf{Tableau Certified}}\hspace{1.5em}%
+\mbox{\textbf{\href{https://www.coursera.org/account/accomplishments/verify/MKX4YAI6UWYS}{Introduction to Big Data}}}\hspace{1.5em}%
+\mbox{\textbf{\href{https://www.coursera.org/account/accomplishments/verify/VXQVKA4P23K3}{Natural Language Processing in Tensorflow}}}\hspace{1.5em}%
+\mbox{\textbf{Certified Data Scientist}}\hspace{1.5em}%
+\mbox{\textbf{\href{https://www.coursera.org/account/accomplishments/verify/UTTAJXMGMUAZ}{Python Project for Data Science}}}\hspace{1.5em}%
+\mbox{\textbf{\href{https://www.coursera.org/account/accomplishments/verify/883VQZ844SQ6}{Tools for Data Science}}}\hspace{1.5em}%
+\mbox{\textbf{\href{https://www.credly.com/badges/9508ddfe-966f-4d39-8ad2-e789dac34020/linked_in_profile}{Python for Data Science and AI}}}\hspace{1.5em}%
+\mbox{\textbf{\href{https://www.coursera.org/account/accomplishments/verify/WA8EMJSPSQBB}{HTML, CSS and Javascript for Web Developers}}}\hspace{1.5em}%
+\mbox{\textbf{\href{https://tcsglobal.udemy.com/certificate/UC-0dbcb04b-4702-489e-800f-75f466099169/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com}{Core Java Made Easy}}}\hspace{1.5em}%
+\mbox{\textbf{\href{https://www.udemy.com/certificate/UC-2bed0a6f-8730-42e4-a864-54b59ce50535/}{LangChain - Develop LLM powered applications with LangChain}}}
+\end{adjustwidth}
+}
+\normalsize
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, C, HTML, CSS, LaTeX, Python, Java, Next.js} \\ \vspace*{0.05cm}
+     \textbf{Frameworks/Libraries}{: Tensorflow, Scikit-Learn, NumPy, Pandas, Streamlit, LangChain, python-dotenv, os, typing, Fast API} \\ \vspace*{0.05cm}
+     \textbf{Developer Tools}{: Git, Github, VSCode, pip, Cursor AI, Mermaid Live, Pinecone VectorStore, OpenRouter AI, npm} \\ \vspace*{0.05cm}
+     \textbf{Technical Skills}{: Full Stack Development, Machine Learning, Deep Learning, LLM}
+    }}
+ \end{itemize}
+
+%-----------EXTRACURRICULAR-----------
+\vspace*{0.05cm}
+\section{Extracurricular}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item{Vice President (Blitzkreig Dance Crew) \hfill (2023-2025)}
+\end{itemize}
+\vspace*{0.05cm}
+
+\end{document}
